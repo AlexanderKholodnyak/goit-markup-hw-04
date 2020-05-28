@@ -73,6 +73,7 @@ a {
 .list.auth-nav a.link {
   vertical-align: text-top;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
@@ -228,14 +229,32 @@ img {
   letter-spacing: 0.02em;
 }
 .auth-nav .link {
+  display: inline-block;
+  align-items: center;
+
   color: var(--primary-text-color);
   margin-left: 10px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
+.icon {
+  width: 16px;
+  height: 11px;
+  /* cursor: pointer;
+  fill: #757575; */
+}
+.icon:hover {
+  fill: var(--accent-color);
+}
 .auth-nav .link:hover {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
+
+/* .icon .icon__envelope:hover {
+  fill: var(--accent-color);
+} */
 
 .img-hover {
   width: 278px;
