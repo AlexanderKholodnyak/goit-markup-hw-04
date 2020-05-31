@@ -520,6 +520,9 @@ address p:last-child {
 
   border-radius: 50%;
   }
+.net-image-footer:hover{
+    background-color: var(--accent-color);
+  }
 .link-color a {
   font-family: Roboto;
   font-weight: 400;
