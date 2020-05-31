@@ -160,7 +160,6 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* background-color: grey; */
 }
 .hero > div {
   margin-left: auto;
@@ -180,7 +179,7 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* text-align: center; */
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -255,24 +254,11 @@ img {
   width: 70px;
   height: 70px;
 
-    display: block;
-    margin-left: auto;
+  display: block;
+  margin-left: auto;
   margin-right: auto;
   margin-bottom: 55px;
 }
-/* .img-hover {
-  width: 278px;
-  height: 120px;
-  border-radius: 4px;
-  bottom: auto;
-  display: inline-block;
-  margin-bottom: 30px; */
-  /* text-align: center; */
-}
-
-/* .img-hover:hover {
-  background-color: var(--accent-color);
-} */
 .img-hover > img {
   display: inline-block;
   padding: 25px 104px;
@@ -325,7 +311,6 @@ main section:nth-child(2) {
   width: 278px;
 }
 .features-title {
-  /* visibility: hidden; */
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -362,7 +347,7 @@ main section:nth-child(4) {
 
 .employer {
   padding-bottom: 24px;
-  
+
   width: 270px;
   text-align: center;
 
@@ -389,7 +374,7 @@ main section:nth-child(4) {
   align-items: center;
   justify-content: space-evenly;
 }
-.net-image{
+.net-image {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -399,13 +384,13 @@ main section:nth-child(4) {
   fill: #afb1b8;
 
   border-radius: 50%;
-  }
-.icon-socialnet{
-    width: 20px;
-    height: 20px;
-  }
-.social-nets .net-image:hover{
-  background-color: #2196F3;
+}
+.icon-socialnet {
+  width: 20px;
+  height: 20px;
+}
+.social-nets .net-image:hover {
+  background-color: #2196f3;
   fill: #fff;
 }
 main section:nth-child(5) {
@@ -428,42 +413,41 @@ main section:nth-child(5) {
 
   border: 1px solid;
   border-color: var(--border-secondary-color);
-  fill:var(--border-secondary-color) ;
+  fill: var(--border-secondary-color);
   border-radius: 4px;
 
   width: 170px;
   height: 90px;
- }
- .client-list .item .item__link:hover{
-fill: var(--accent-color);
-border-color:var(--accent-color) ;
- }
-.icon-logo-1{
+}
+.client-list .item .item__link:hover {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+}
+.icon-logo-1 {
   width: 45px;
 }
-.icon-logo-2{
+.icon-logo-2 {
   width: 40px;
 }
-.icon-logo-3{
+.icon-logo-3 {
   width: 41px;
 }
-.icon-logo-4{
+.icon-logo-4 {
   width: 80px;
 }
-.icon-logo-5{
+.icon-logo-5 {
   width: 59px;
 }
-.icon-logo-6{
+.icon-logo-6 {
   width: 89px;
 }
-
 
 .basement {
   display: flex;
   justify-content: space-between;
-  
+
   padding-top: 50px;
-  
+
   margin-bottom: 28px;
 }
 
@@ -509,7 +493,7 @@ address p:last-child {
 .network-icon .item:not(:last-child) {
   margin-right: 10px;
 }
-.net-image-footer{
+.net-image-footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -519,10 +503,10 @@ address p:last-child {
   fill: #ffffff;
 
   border-radius: 50%;
-  }
-.net-image-footer:hover{
-    background-color: var(--accent-color);
-  }
+}
+.net-image-footer:hover {
+  background-color: var(--accent-color);
+}
 .link-color a {
   font-family: Roboto;
   font-weight: 400;
@@ -549,7 +533,7 @@ address p:last-child {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.icon-icon-send{
+.icon-icon-send {
   width: 24px;
   height: 24px;
 }
@@ -574,11 +558,8 @@ footer > p {
 
 .project-item {
   margin-bottom: 30px;
-  /* padding-bottom: 20px; */
+
   width: 370px;
-  /* height: 404px; */
-  /* border-radius: 5px;
-  border: 1px solid#EEEEEE; */
 }
 .project-item:hover {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -611,7 +592,6 @@ footer > p {
 }
 .project-item img {
   display: block;
-  /* margin-bottom: 20px; */
 }
 
 p.kind-work {
@@ -622,8 +602,6 @@ p.kind-work {
   letter-spacing: 0.03em;
 }
 .description-project {
-  /* visibility: hidden; */
-
   margin-left: 25px;
 
   color: var(--primary-white-color);
@@ -685,8 +663,6 @@ p.kind-work {
   letter-spacing: 0.06em;
 }
 .batton-port {
-  /* display: inline-block;
-  margin-bottom: -10px; */
   vertical-align: top;
   margin-right: 10px;
 }
