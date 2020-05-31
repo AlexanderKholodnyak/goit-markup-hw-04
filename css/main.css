@@ -357,12 +357,12 @@ main section:nth-child(4) {
   align-items: center;
 }
 .title.big.team {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .employer {
-  padding-bottom: 30px;
-  /* height: 422px; */
+  padding-bottom: 24px;
+  
   width: 270px;
   text-align: center;
 
@@ -461,7 +461,7 @@ border-color:var(--accent-color) ;
 .basement {
   display: flex;
   justify-content: space-between;
-
+  
   padding-top: 50px;
   
   margin-bottom: 28px;
@@ -507,8 +507,19 @@ address p:last-child {
   align-items: center;
 }
 .network-icon .item:not(:last-child) {
-  margin-right: 11px;
+  margin-right: 10px;
 }
+.net-image-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+
+  border-radius: 50%;
+  }
 .link-color a {
   font-family: Roboto;
   font-weight: 400;
@@ -534,6 +545,10 @@ address p:last-child {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.icon-icon-send{
+  width: 24px;
+  height: 24px;
 }
 .follow-sign {
   margin-bottom: 0px;
