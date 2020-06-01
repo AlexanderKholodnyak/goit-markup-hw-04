@@ -80,8 +80,24 @@ a {
   color: var(--accent-color);
 }
 
+.bottom-line {
+  position: relative;
+}
+.line {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+
+  background-color: var(--accent-color);
+}
+
 .site-nav .link.current {
   color: var(--accent-color);
+  /* border-bottom: 4px solid var(--accent-color);
+  border-bottom-right-radius: 2px; */
 }
 img {
   margin: 0;
@@ -95,7 +111,7 @@ img {
 
   list-style: none;
 }
-header {
+.header {
   border-bottom: 1px solid #ececec;
 }
 .container {
